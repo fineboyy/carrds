@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game of Cards</title>
+	<script>
+		//SPADES
+		var s6 = { name: "Spade 6", value: 6, color: "black"};
+		var s7 = { name: "Spade 7", value: 7, color: "black"};
+		var s8 = { name: "Spade 8", value: 8, color: "black"};
+		var s9 = { name: "Spade 9", value: 9, color: "black"};
+		var s10 = { name: "Spade 10", value: 10, color: "black"};
+		var sj = { name: "Spade Jack", value: 11, color: "black"};
+		var sq = { name: "Spade Queen", value: 12, color: "black"};
+		var sk = {name: "Sapde King", value: 13, color: "black"};
+
+		//HEARTS
+		var h6 = { name: "Heart 6", value: 6, color: "red"};
+		var h7 = { name: "Heart 7", value: 7, color: "red"};
+		var h8 = { name: "Heart 8", value: 8, color: "red"};
+		var h9 = { name: "Heart 9", value: 9, color: "red"};
+		var h10 = { name: "Heart 10", value: 10, color: "red"};
+		var hj = { name: "Heart Jack", value: 11, color: "red"};
+		var hq = { name: "Heart Queen", value: 12, color: "red"};
+		var hk = { name: "Heart King", value: 13, color: "red"};
+		//DIAMONDS
+		var d6 = { name: "Diamond 6", value: 6, color: "red"};
+		var d7 = { name: "Diamond 7", value: 7, color: "red"};
+		var d8 = { name: "Diamond 8", value: 8, color: "red"};
+		var d9 = { name: "Diamond 9", value: 9, color: "red"};
+		var d10 = { name: "Diamond 10", value: 10, color: "red"};
+		var dj = { name: "Diamond Jack", value: 11, color: "red"};
+		var dq = { name: "Diamond Queen", value: 12, color: "red"};
+		var dk = { name: "Diamond King", value: 13, color: "red"};
+		//CLUBS
+		var c6 = {name: "Club 6", value: 6, color: "black"};
+		var c7 = { name: "Club 6", value: 6, color: "black"};
+		var c8 = { name: "Club 8", value: 8, color: "black"};
+		var c9 = { name: "Club 9", value: 9, color: "black"};
+		var c10 = { name: "Club 10", value: 10, color: "black"};
+		var cj = { name: "Club Jack", value: 11, color: "black"};
+		var cq = { name: "Club Queen", value: 12, color: "black"};
+		var ck = { name: "Club King",  value: 13, color: "black"}
+		//END OF VARIABLES
+
+		function lol (){
+			
+		}
+
+	</script>
+
+
+	<style type="text/css">
+
+		body { font-family: arial, sans-serif;
+			background-image: "bg.png";
+		}
+		#header {
+			background-color: #f4f7f5;
+			height: 200px;
+			width: 100%
+		}
+
+		#game-area {
+			background-color: #9632c1;
+			width: 70%;
+			height: 600px;
+			margin-left: 15%;
+			margin-top: 1%;
+			margin-right: auto;
+		}
+
+		#start-button {
+			height: 70px; 
+			width: 200px; 
+			font-size: 20px; 
+			background-color: #0cb222;
+			border-radius: 20px;
+			text-decoration: blink;
+			font-weight: bold;
+			color: white;
+			margin: auto auto auto auto;
+			border-color: black;
+			border-width: 2px;
+
+		}
+
+		footer {
+			background-color: #bfbfbf;
+		}
+
+	</style>
+</head>
+
+
+
+
+<body>
+	<div id = "header"></div>
+	
+	<div id = "game-area">
+		<button id = "start-button">
+			<script type="text/javascript">
+				onclick = " document.getElementById('start-button').innerHtml = 'You suck already'";
+			</script>
+		Start Game
+	</button>
+
+	</div>
+	<div id = "footer"></div>
+</body>
+</html>
