@@ -1,18 +1,17 @@
 //Game of Cards Simulation
-//Define Cards
+//Define Cards Array
 //Generate five random cards player 1
-//Generate another five random cards for player 2
+//Generate five random cards for player 2
 //Let player1 drop a random card.
-//Let player2 look through cards and find a card that is same and bigger than player1's card.
-//If none exists, player2 drops any card
-//Reiterate until player2 beats player1's card.
-//Leader at the end of the round wins the points.
-
-//declaring of cards.
+//Let player2 look through their set for a card of the same type as dropped by player1
+//If player2 has a higher value of the same type, they drop that one to assume the lead.
+//If there is another card of the same type but not of higher value, player2 drops it anyway.
+//If none exists, player2 drops any card.
+//Player1 becomes player2
+//Reiterate until both players have no cards left.
+//Leading Player at the end of the round wins the points.
 
 //SPADES
-// Define Cards
-// Define Cards
 let cards = [
 	//Hearts
 	{ name: "6 of Hearts", type: "heart", value: 6, winValue: 3 },
